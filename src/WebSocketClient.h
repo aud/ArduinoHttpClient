@@ -86,7 +86,7 @@ private:
 private:
     bool iTxStarted;
     uint8_t iTxMessageType;
-    uint8_t iTxBuffer[128];
+    uint8_t iTxBuffer[1024];
     uint64_t iTxSize;
 
     uint8_t iRxOpCode;
